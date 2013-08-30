@@ -1,6 +1,6 @@
 {
   "name": "is-integer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test if something is an integer (ES6 Polyfil)",
   "main": "index.js",
   "scripts": {
