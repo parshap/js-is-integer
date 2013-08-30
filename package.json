@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:parshap/es6-is-integer"
+    "url": "git@github.com:parshap/js-is-integer"
   },
   "keywords": [
     "es6",
@@ -19,10 +19,7 @@
     "isSafeInteger"
   ],
   "author": "Parsha Pourkhomami",
-  "license": "Public Domain",
-  "bugs": {
-    "url": "https://github.com/parshap/js-is-integer/issues"
-  },
+  "license": "MIT",
   "devDependencies": {
     "tape": "~1.0.4"
   }
