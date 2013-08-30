@@ -1,0 +1,29 @@
+{
+  "name": "is-integer",
+  "version": "0.0.0",
+  "description": "Test if something is an integer (ES6 Polyfil)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parshap/es6-is-integer"
+  },
+  "keywords": [
+    "es6",
+    "is",
+    "safe",
+    "integer",
+    "isInteger",
+    "isSafeInteger"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/parshap/js-is-integer/issues"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
