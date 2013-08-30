@@ -1,7 +1,7 @@
 {
   "name": "is-integer",
   "version": "1.0.1",
-  "description": "Test if something is an integer (ES6 Polyfil)",
+  "description": "Test if something is an integer (ES6 Polyfill)",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
