@@ -10,7 +10,9 @@ var test = require("tape"),
 test("should be truthy on integers", function(t) {
 	[5295, -5295, -9007199254740991, 9007199254740991, 0, -0]
 		.map(isInteger)
-		.forEach(t.ok.bind(t));
+		.forEach(function(val) {
+			t.ok(val);
+		});
 	t.ok(isInteger(4));
 	t.ok(isInteger(4.0));
 	t.ok(isInteger(1801439850948));
