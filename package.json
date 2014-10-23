@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "Test if something is an integer (ES6 Polyfill)",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node test.js"
   },
