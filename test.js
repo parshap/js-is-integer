@@ -80,17 +80,3 @@ test("should be false when number is not integer", function(t) {
 	t.notOk(isInteger(-3.4));
 	t.end();
 });
-
-test("should be false when abs(number) is 2^53 or larger", function(t) {
-	t.notOk(isInteger(Math.pow(2, 53)));
-	t.notOk(isInteger(-Math.pow(2, 53)));
-	t.end();
-});
-
-test("should be true when abs(number) is less than 2^53", function(t) {
-	[0, 1, Math.pow(2, 53) - 1].forEach(function(int) {
-		t.ok(isInteger(int));
-		t.ok(isInteger(-int));
-	});
-	t.end();
-});
