@@ -21,7 +21,7 @@
   "author": "Parsha Pourkhomami",
   "license": "MIT",
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^3.5.0"
   },
   "dependencies": {
     "is-finite": "^1.0.0",
