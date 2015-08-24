@@ -11,12 +11,11 @@
     "url": "git@github.com:parshap/js-is-integer"
   },
   "keywords": [
-    "es6",
-    "is",
-    "safe",
-    "integer",
     "isInteger",
-    "isSafeInteger"
+    "isSafeInteger",
+    "polyfill",
+    "es6",
+    "es2015"
   ],
   "author": "Parsha Pourkhomami",
   "license": "MIT",
@@ -24,6 +23,7 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "is-finite": "^1.0.0"
+    "is-finite": "^1.0.0",
+    "max-safe-integer": "^1.0.0"
   }
 }
