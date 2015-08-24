@@ -24,7 +24,6 @@
     "tape": "^3.5.0"
   },
   "dependencies": {
-    "is-finite": "^1.0.0",
-    "is-nan": "^1.0.1"
+    "is-finite": "^1.0.0"
   }
 }

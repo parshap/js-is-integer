@@ -80,3 +80,9 @@ test("should be false when number is not integer", function(t) {
   t.notOk(isInteger(-3.4));
   t.end();
 });
+
+test("should work even with big numbers", function(t) {
+  t.ok(isInteger(1000000000000000000000));
+  t.ok(isInteger(1000000000000000000000000000000000000));
+  t.end();
+});
