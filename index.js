@@ -3,8 +3,8 @@
 var isNaN = require("is-nan");
 var isFinite = require("is-finite");
 module.exports = Number.isInteger || function(val) {
-	return typeof val === "number" &&
-		! isNaN(val) &&
-		isFinite(val) &&
-		parseInt(val, 10) === val;
+  return typeof val === "number" &&
+    ! isNaN(val) &&
+    isFinite(val) &&
+    parseInt(val, 10) === val;
 };
