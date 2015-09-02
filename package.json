@@ -18,7 +18,7 @@
     "polyfill"
   ],
   "author": "Parsha Pourkhomami",
-  "license": "MIT",
+  "license": "WTFPL",
   "devDependencies": {
     "tape": "^3.5.0"
   },
