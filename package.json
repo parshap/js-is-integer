@@ -3,6 +3,9 @@
   "version": "1.0.6",
   "description": "ES2015 (ES6) Number.isInteger polyfill",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node test.js"
   },
