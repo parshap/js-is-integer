@@ -1,6 +1,6 @@
 {
   "name": "is-integer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ES2015 (ES6) Number.isInteger polyfill",
   "main": "index.js",
   "scripts": {
